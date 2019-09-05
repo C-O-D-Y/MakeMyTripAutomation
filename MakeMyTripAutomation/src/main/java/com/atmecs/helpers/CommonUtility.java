@@ -136,10 +136,10 @@ public class CommonUtility {
 	 * @param driver
 	 */
 
-	public static void scrollDownPage(WebDriver driver) {
+	public static void scrollDownPage(WebDriver driver, int horizontalIndex, int verticalIndex) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,5000)");
-
+		String scroll = "window.scrollTo(" + verticalIndex + "," + horizontalIndex + ")";
+		js.executeScript(scroll);
 	}
 
 }

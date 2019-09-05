@@ -5,6 +5,8 @@
     <classes>
       <class name="com.atmecs.testScripts.Book_Ticket_RoundTrip">
         <methods>
+          <include name="end"/>
+          <include name="travellersDetails" invocation-numbers="0"/>
           <include name="intitailizeBrowser"/>
           <include name="selectFlightAndReview"/>
         </methods>
