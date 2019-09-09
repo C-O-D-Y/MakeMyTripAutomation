@@ -20,7 +20,6 @@ public class GridConnection {
 		try {
 			url1 = new URL(nodeurl);
 		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		capability.setBrowserName("chrome");

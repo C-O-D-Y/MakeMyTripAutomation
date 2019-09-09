@@ -407,7 +407,7 @@ public class OneWayTrip {
 
 	public static void main(String[] args) {
 		OneWayTrip details = new OneWayTrip();
-		System.out.println(details.getLoc_calender_departure_date_btn());
+		System.out.println(details.getLoc_search_btn());
 	}
 
 	public String getLoc_cursorup_btn() {

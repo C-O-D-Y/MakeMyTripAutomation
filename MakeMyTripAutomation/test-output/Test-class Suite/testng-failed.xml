@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Test-class Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <parameter name="selectBrowser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.testScripts.Book_OneWay_Ticket">
+        <methods>
+          <include name="travellersDetails" invocation-numbers="0"/>
+          <include name="end"/>
+          <include name="homePage"/>
+          <include name="intitailizeBrowser"/>
+          <include name="selectFlightAndReview"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.Book_OneWay_Ticket -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="selectBrowser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.testScripts.Book_OneWay_Ticket">
+        <methods>
+          <include name="travellersDetails" invocation-numbers="0"/>
+          <include name="end"/>
+          <include name="intitailizeBrowser"/>
+          <include name="selectFlightAndReview"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.Book_OneWay_Ticket -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->

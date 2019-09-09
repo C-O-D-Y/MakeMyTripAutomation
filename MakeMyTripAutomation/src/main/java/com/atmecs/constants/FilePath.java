@@ -15,14 +15,17 @@ public class FilePath {
 	public final static String FIREFOX_PATH = LIB_HOME + "geckodriver.exe";
 	public final static String IE_PATH = LIB_HOME + "IEDriver.exe";
 
+	public final static String JIRA_CONFIG = USER_HOME + "jiraConfig.properties";
 	public final static String ONEWAY_FILE = LOCATOR_HOME + "oneWay.properties";
 	public final static String ROUNDTRIP_FILE = LOCATOR_HOME + "roundTrip.properties";
-	public final static String CITYTESTDATA_FILE = RESOURCES_HOME + "testData" + File.separator
-			+ "cityinput.xlsx";
-	public final static String INPUTTESTDATA_FILE = RESOURCES_HOME + "testData" + File.separator
-			+ "testdata.xlsx";
+	public final static String CITYTESTDATA_FILE = RESOURCES_HOME + "testData" + File.separator + "cityinput.xlsx";
+	public final static String INPUTTESTDATA_FILE = RESOURCES_HOME + "testData" + File.separator + "testdata.xlsx";
+	public static final String EXTENT_REPORT_FILE = USER_HOME + "test-output" + File.separator + "ExtentReport.html";
+	public static final String EXTENT_CONFIG = USER_HOME + "extent-config.xml";
+	public static final String FAILED_SCREENSHOT_FILE = USER_HOME + "FailedTestScreenShots" + File.separator;
+	public final static String LOG4J_FILE = RESOURCES_HOME + "log4j" + File.separator + "log4j.properties";
 
 	public static void main(String[] args) {
-		System.out.println(INPUTTESTDATA_FILE);
+		System.out.println(FAILED_SCREENSHOT_FILE);
 	}
 }

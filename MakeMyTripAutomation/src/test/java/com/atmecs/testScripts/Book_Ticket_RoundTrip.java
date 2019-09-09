@@ -25,18 +25,18 @@ public class Book_Ticket_RoundTrip extends TestBase {
 		System.out.println(" " + CommonUtility.isDisplayed(driver, roundtrip.getLoc_from_search()));
 		System.out.println(" " + CommonUtility.isElementVisible(driver, roundtrip.getLoc_from_search()));
 		CommonUtility.clickAndSendText(driver, roundtrip.getLoc_from_inputtext(), 2, fromCity);
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		
 		CommonUtility.clickElement(driver, roundtrip.getLoc_from_search());
 		System.out.println(CommonUtility.isDisplayed(driver, roundtrip.getLoc_to_search()));
 		System.out.println(CommonUtility.isElementVisible(driver, roundtrip.getLoc_to_search()));
 		System.out.println("1st");
 		CommonUtility.clickAndSendText(driver, roundtrip.getLoc_to_inputtext(), 2, toCity);
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		
 		System.out.println("2nd");
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+		
 			e.printStackTrace();
 		}
 		CommonUtility.clickElement(driver, roundtrip.getLoc_to_search());
@@ -61,7 +61,7 @@ public class Book_Ticket_RoundTrip extends TestBase {
 
 	@Test(priority = 2)
 	public void selectFlightAndReview() {
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
 		boolean visibility = CommonUtility.isElementVisible(driver, roundtrip.getLoc_departuresortby_dpdn());
 		System.out.println(visibility);
 		if (visibility == true) {
@@ -85,7 +85,7 @@ public class Book_Ticket_RoundTrip extends TestBase {
 			e.printStackTrace();
 		}
 		WebElement Element = driver
-				.findElement(By.xpath("//label[@for='splitrtJourney812c40c6-f473-47cc-a9b0-5f67f57d293b']"));
+				.findElement(By.xpath("(//span[@class='splitVw-inner'])[20]"));
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", Element);
@@ -137,6 +137,6 @@ public class Book_Ticket_RoundTrip extends TestBase {
 	@AfterSuite
 	public void end() {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//		driver.close();
+		driver.close();
 	}
 }

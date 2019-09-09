@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Test-class Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="Test2(failed)" verbose="0">
+    <parameter name="selectBrowser" value="firefox"/>
+    <classes>
+      <class name="com.atmecs.testScripts.Book_Ticket_RoundTrip">
+        <methods>
+          <include name="homePage"/>
+          <include name="end"/>
+          <include name="startReport"/>
+          <include name="travellersDetails" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="intitailizeBrowser"/>
+          <include name="selectFlightAndReview"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.Book_Ticket_RoundTrip -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->

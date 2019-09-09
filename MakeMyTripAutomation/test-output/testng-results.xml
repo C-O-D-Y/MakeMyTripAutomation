@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-05T12:22:06Z" name="Default suite" finished-at="2019-09-05T12:22:38Z" duration-ms="31742">
+  <suite started-at="2019-09-09T11:28:05Z" name="Default suite" finished-at="2019-09-09T11:28:42Z" duration-ms="36686">
     <groups>
     </groups>
-    <test started-at="2019-09-05T12:22:06Z" name="Default test" finished-at="2019-09-05T12:22:38Z" duration-ms="31742">
+    <test started-at="2019-09-09T11:28:05Z" name="Default test" finished-at="2019-09-09T11:28:42Z" duration-ms="36686">
       <class name="com.atmecs.testScripts.Book_Ticket_RoundTrip">
-        <test-method is-config="true" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@4fe767f3]" started-at="2019-09-05T12:21:51Z" name="intitailizeBrowser" finished-at="2019-09-05T12:22:06Z" duration-ms="15377" status="PASS">
+        <test-method is-config="true" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@3c72f59f]" started-at="2019-09-09T11:27:46Z" name="intitailizeBrowser" finished-at="2019-09-09T11:28:05Z" duration-ms="18974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intitailizeBrowser -->
-        <test-method signature="homePage(java.lang.String, java.lang.String)[pri:1, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@4fe767f3]" started-at="2019-09-05T12:22:07Z" name="homePage" data-provider="cityinput" finished-at="2019-09-05T12:22:20Z" duration-ms="12932" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@3c72f59f]" started-at="2019-09-09T11:28:05Z" name="startReport" finished-at="2019-09-09T11:28:06Z" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="homePage(java.lang.String, java.lang.String)[pri:1, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@3c72f59f]" started-at="2019-09-09T11:28:07Z" name="homePage" data-provider="cityinput" finished-at="2019-09-09T11:28:21Z" duration-ms="14021" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,29 +31,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
-        <test-method signature="selectFlightAndReview()[pri:2, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@4fe767f3]" started-at="2019-09-05T12:22:20Z" name="selectFlightAndReview" finished-at="2019-09-05T12:22:32Z" duration-ms="12358" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="selectFlightAndReview()[pri:2, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@3c72f59f]" started-at="2019-09-09T11:28:21Z" name="selectFlightAndReview" finished-at="2019-09-09T11:28:35Z" duration-ms="14581" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[@for='splitrtJourney812c40c6-f473-47cc-a9b0-5f67f57d293b']"}
+              <![CDATA[element not interactable
   (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
 System info: host: 'ATMECSINLT-038', ip: '55.55.53.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 11692972534165c6913774a08112ec96
-*** Element info: {Using=xpath, value=//label[@for='splitrtJourney812c40c6-f473-47cc-a9b0-5f67f57d293b']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3f7b36304e488fcc826d0f4272216a5a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[@for='splitrtJourney812c40c6-f473-47cc-a9b0-5f67f57d293b']"}
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
 System info: host: 'ATMECSINLT-038', ip: '55.55.53.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 11692972534165c6913774a08112ec96
-*** Element info: {Using=xpath, value=//label[@for='splitrtJourney812c40c6-f473-47cc-a9b0-5f67f57d293b']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3f7b36304e488fcc826d0f4272216a5a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -61,11 +61,13 @@ at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpRespo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-at com.atmecs.testScripts.Book_Ticket_RoundTrip.selectFlightAndReview(Book_Ticket_RoundTrip.java:88)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at com.atmecs.helpers.CommonUtility$1.apply(CommonUtility.java:33)
+at com.atmecs.helpers.CommonUtility$1.apply(CommonUtility.java:30)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at com.atmecs.helpers.CommonUtility.clickElement(CommonUtility.java:30)
+at com.atmecs.testScripts.Book_Ticket_RoundTrip.selectFlightAndReview(Book_Ticket_RoundTrip.java:93)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -93,11 +95,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectFlightAndReview -->
-        <test-method signature="travellersDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@4fe767f3]" started-at="2019-09-05T12:22:33Z" name="travellersDetails" data-provider="testinput" finished-at="2019-09-05T12:22:38Z" duration-ms="5069" status="FAIL">
+        <test-method signature="travellersDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@3c72f59f]" started-at="2019-09-09T11:28:36Z" name="travellersDetails" data-provider="testinput" finished-at="2019-09-09T11:28:42Z" duration-ms="6096" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -138,8 +140,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
 System info: host: 'ATMECSINLT-038', ip: '55.55.53.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 11692972534165c6913774a08112ec96
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3f7b36304e488fcc826d0f4272216a5a
 *** Element info: {Using=xpath, value=//a[text()='+ ADD ADULT']}]]>
             </message>
             <full-stacktrace>
@@ -149,8 +151,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
 System info: host: 'ATMECSINLT-038', ip: '55.55.53.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 11692972534165c6913774a08112ec96
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50148}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3f7b36304e488fcc826d0f4272216a5a
 *** Element info: {Using=xpath, value=//a[text()='+ ADD ADULT']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -168,7 +170,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
 at com.atmecs.helpers.CommonUtility$1.apply(CommonUtility.java:32)
-at com.atmecs.helpers.CommonUtility$1.apply(CommonUtility.java:1)
+at com.atmecs.helpers.CommonUtility$1.apply(CommonUtility.java:30)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 at com.atmecs.helpers.CommonUtility.clickElement(CommonUtility.java:30)
 at com.atmecs.testScripts.Book_Ticket_RoundTrip.travellersDetails(Book_Ticket_RoundTrip.java:115)
@@ -203,7 +205,49 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travellersDetails -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@4fe767f3]" started-at="2019-09-05T12:22:38Z" name="end" finished-at="2019-09-05T12:22:38Z" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@3c72f59f]" started-at="2019-09-09T11:28:42Z" name="endReport" finished-at="2019-09-09T11:28:42Z" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@3c72f59f]" started-at="2019-09-09T11:28:42Z" name="tearDown" finished-at="2019-09-09T11:28:42Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated tearDown.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated tearDown.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.atmecs.testScripts.Book_Ticket_RoundTrip@3c72f59f]" started-at="2019-09-09T11:28:42Z" name="end" finished-at="2019-09-09T11:28:42Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

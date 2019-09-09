@@ -1,0 +1,105 @@
+# Created at 2019-09-09T16:34:02.529
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+
+# Created at 2019-09-09T16:34:09.400
+Unexpected IOException: 8,1,com.atmecs.testScripts.Book_OneWay_Ticket,travellersDetails(com.atmecs.testScripts.Book_OneWay_Ticket),null,chrome not reachable\000A  (Session info: chrome=76.0.3809.132)\000ABuild info: version: '4.0.0-alpha-2'\002C revision: 'f148142cf8'\002C time: '2019-07-01T20:55:26'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.53.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 76.0.3809.132\002C chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b...\002C userDataDir: C:\005CUsers\005CSAURAB~1.CHA\005CAppDa...}\002C goog:chromeOptions: {debuggerAddress: localhost:65132}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 02a9c6762c25a4d292b6f179a7070a09\000A*** Element info: {Using=xpath\002C value=//a[text()='+ ADD ADULT']},null,chrome not reachable\000A  (Session info: chrome=76.0.3809.132)\000ABuild info: version: '4.0.0-alpha-2'\002C revision: 'f148142cf8'\002C time: '2019-07-01T20:55:26'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.53.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 76.0.3809.132\002C chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b...\002C userDataDir: C:\005CUsers\005CSAURAB~1.CHA\005CAppDa...}\002C goog:chromeOptions: {debuggerAddress: localhost:65132}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 02a9c6762c25a4d292b6f179a7070a09\000A*** Element info: {Using=xpath\002C value=//a[text()='+ ADD ADULT']},Book_OneWay_Ticket.travellersDetails:99 \00BB WebDriver chrome not reachable\000A  (Se...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=76.0.3809.132)\000ABuild info: version: '4.0.0-alpha-2'\002C revision: 'f148142cf8'\002C time: '2019-07-01T20:55:26'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.53.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 76.0.3809.132\002C chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b...\002C userDataDir: C:\005CUsers\005CSAURAB~1.CHA\005CAppDa...}\002C goog:chromeOptions: {debuggerAddress: localhost:65132}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 02a9c6762c25a4d292b6f179a7070a09\000A*** Element info: {Using=xpath\002C value=//a[text()='+ ADD ADULT']}\000A\0009at com.atmecs.testScripts.Book_OneWay_Ticket.travellersDetails(Book_OneWay_Ticket.java:99)\000A
+
+
+# Created at 2019-09-09T16:34:09.497
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2019-09-09T16:34:09.501
+Unexpected IOException with stream: 44445 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2019-09-09T16:34:09.509
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+
+
+# Created at 2019-09-09T16:34:09.513
+Unexpected IOException with stream: 44457 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+
+
+# Created at 2019-09-09T16:34:09.525
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+
+
+# Created at 2019-09-09T16:34:09.525
+Unexpected IOException with stream: 44473 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+
+
+# Created at 2019-09-09T16:34:09.565
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+
+
+# Created at 2019-09-09T16:34:09.569
+Unexpected IOException with stream: 44517 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+
+
+# Created at 2019-09-09T16:34:09.573
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+
+
+# Created at 2019-09-09T16:34:09.577
+Unexpected IOException with stream: 44521 [main] DEBUG freemarker.cache  - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+
+
+# Created at 2019-09-09T16:34:09.857
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2019-09-09T16:34:09.857
+Unexpected IOException with stream: 44809 [main] DEBUG freemarker.cache  - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+
+
+# Created at 2019-09-09T16:34:09.857
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+
+
+# Created at 2019-09-09T16:34:09.861
+Unexpected IOException with stream: 44809 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+
+
+# Created at 2019-09-09T16:34:09.861
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+
+
+# Created at 2019-09-09T16:34:09.861
+Unexpected IOException with stream: 44813 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+
+
+# Created at 2019-09-09T16:34:09.865
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+
+
+# Created at 2019-09-09T16:34:09.865
+Unexpected IOException with stream: 44813 [main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+
+
+# Created at 2019-09-09T16:34:09.869
+Unexpected IOException with stream: 09-09-2019 16:34:09 _Log4jLoggerFactory.java DEBUG [main] freemarker.cache 45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+
+
+# Created at 2019-09-09T16:34:09.869
+Unexpected IOException with stream: 44817 [main] DEBUG freemarker.cache  - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/saurabh.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+
+
+# Created at 2019-09-09T16:34:09.918
+Unexpected IOException: 8,1,com.atmecs.testScripts.Book_OneWay_Ticket,tearDown(com.atmecs.testScripts.Book_OneWay_Ticket),null,\000ACan inject only one of <ITestContext\002C XmlTest> into a @AfterTest annotated tearDown.\000AFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection,null,\000ACan inject only one of <ITestContext\002C XmlTest> into a @AfterTest annotated tearDown.\000AFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection,Book_OneWay_Ticket.tearDown \00BB TestNG \000ACan inject only one of <ITestContext\002C Xm...,org.testng.TestNGException: \000A\000ACan inject only one of <ITestContext\002C XmlTest> into a @AfterTest annotated tearDown.\000AFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection\000A
+
+
+# Created at 2019-09-09T16:34:09.980
+Unexpected IOException: 9,1,com.atmecs.testScripts.Book_OneWay_Ticket,end(com.atmecs.testScripts.Book_OneWay_Ticket),null,null,null
+
+
+# Created at 2019-09-09T16:34:10.262
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

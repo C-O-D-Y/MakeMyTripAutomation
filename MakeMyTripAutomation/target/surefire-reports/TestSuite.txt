@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 84.506 s <<< FAILURE! - in TestSuite
+selectFlightAndReview(com.atmecs.testScripts.Book_Ticket_RoundTrip)  Time elapsed: 24.506 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//p[@class='inlineB marL10 sortbytype'])[2]"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ATMECSINLT-038', ip: '55.55.53.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2fd6c002f43bb1ab01b0bb901036a98
+*** Element info: {Using=xpath, value=(//p[@class='inlineB marL10 sortbytype'])[2]}
+	at com.atmecs.testScripts.Book_Ticket_RoundTrip.selectFlightAndReview(Book_Ticket_RoundTrip.java:70)
+
+travellersDetails(com.atmecs.testScripts.Book_Ticket_RoundTrip)  Time elapsed: 6.254 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='+ ADD ADULT']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'ATMECSINLT-038', ip: '55.55.53.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\SAURAB~1.CHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2fd6c002f43bb1ab01b0bb901036a98
+*** Element info: {Using=xpath, value=//a[text()='+ ADD ADULT']}
+	at com.atmecs.testScripts.Book_Ticket_RoundTrip.travellersDetails(Book_Ticket_RoundTrip.java:115)
+
+tearDown(com.atmecs.testScripts.Book_Ticket_RoundTrip)  Time elapsed: 6.979 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated tearDown.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+tearDown(com.atmecs.testScripts.Book_OneWay_Ticket)  Time elapsed: 10.732 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated tearDown.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
